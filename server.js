@@ -1,30 +1,29 @@
 'use strict';
 
-// this will bring in my express libraray
 const express = require('express');
-
-// bring in the dotenv library
-// the job of this library is to find the .env file and get the variables out of it so we can use them in our JS file
-require('dotenv').config();
-
-// this gives us a variable that we can use to run all the methods that are in the express library
 const app = express();
 
-// this lets us serve a website from a directory
-app.use(express.static('./public'));
+// allows me to go into my .env file and get my variables out of it and use them in THIS file
+require('dotenv').config();
 
-// the dotenv library lets us grab the PORT var from the .env using the magic words process.env.variableName
 const PORT = process.env.PORT;
+
+// tells express to look inside of a public folder for an index file and serve that file first
+app.use(express.static('./public'));
  
 // app.get('/', function (request, response) {
 //   response.send('Hello World');
 // });
 
-// app.get('/bananas', (request, response) => {
-//   response.send('I am bananas about bananas');
-// });
+// app.get('/bananas', (request, response)=> {
+//   response.send('I am on a banana route');
+// })
+
+// app.get('/location', (request, response)=> {
+//   // do something cool to get information on that location
+//   response.send('here is information on your location')
+// })
  
-// turn on the server
 app.listen(PORT, () => {
-  console.log(`listening on ${PORT}`);
-});
+  console.log(`listening on port ${PORT}`);
+})
