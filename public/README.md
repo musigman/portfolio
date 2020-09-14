@@ -25,13 +25,13 @@ For each of the features listed below, make an estimate of the time it will take
 ```
 Number and name of feature: _1_______________________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1/2 hour_____
 
 Start time: _1:45pm____
 
 Finish time: _2:15____
 
-Actual time needed to complete: _____
+Actual time needed to complete: _1/2 hour____
 ```
 
 Add this information to your README.
@@ -79,6 +79,17 @@ Then the content should be unique and reflect the skills and personality of the 
   - In the About Me section, add your personal pitch and banner photo. 
 
 - Add you own color scheme and Google fonts.
+
+Number and name of feature: 2____________________
+
+Estimate of time needed to complete: 3 hours_____
+
+Start time: _2:15pm____
+
+Finish time: _5:15____
+
+Actual time needed to complete: _2 1/2 hours___
+```
 
 - Change the content and images to reflect your personal preferences. If you are using online images, make sure they are licensed for free, commercial use. For example, [Unsplash](https://unsplash.com/) has a nice variety of free images. 
 - Update the list of social media icons with your links using icons for your favorite social media sites from IcoMoon or Font Awesome.
